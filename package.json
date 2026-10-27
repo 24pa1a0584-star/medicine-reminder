@@ -1,0 +1,33 @@
+{
+  "name": "dosebloom",
+  "version": "1.0.0",
+  "description": "DOSEBLOOM — Smart Medicine Reminder & Daily Dose Tracker. A modern, colorful, animated, secure MERN application.",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan.bold,magenta.bold\" \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build:client": "npm run build --prefix client",
+    "build:server": "npm run build --prefix server",
+    "build": "npm run build:client && npm run build:server",
+    "start": "node server/dist/server.js",
+    "test": "npm run test --prefix server",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "medicine-reminder",
+    "dose-tracker",
+    "healthcare",
+    "pwa",
+    "mern",
+    "typescript",
+    "react",
+    "mongodb"
+  ],
+  "author": "DOSEBLOOM Team",
+  "license": "MIT"
+}

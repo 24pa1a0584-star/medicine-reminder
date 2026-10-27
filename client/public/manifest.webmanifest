@@ -1,0 +1,31 @@
+{
+  "name": "DOSEBLOOM — Smart Medicine Reminder",
+  "short_name": "DOSEBLOOM",
+  "description": "A little reminder. A healthier routine. Manage medications, persistent alarms, and daily dose tracking.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#162238",
+  "theme_color": "#10B981",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
